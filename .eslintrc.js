@@ -28,4 +28,12 @@ module.exports = init({
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/require-await': 'warn',
   },
+    overrides: [
+    {
+      files: ['./src/common/**/*.ts'],
+      rules: {
+        'import/no-cycle': 'off',
+      },
+    },
+  ],
 });
