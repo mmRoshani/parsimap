@@ -26,9 +26,6 @@ export class GeocodeService extends RequestService<GeoToRealRes> {
       request_id: false,
     },
   ) {
-    this.logger.debug(geoToRealParams({ parsiToken: this.apiToken, parsiOptions, ...geoToRealReq }));
-    this.logger.debug(geoToRealParams({ parsiToken: this.apiToken, parsiOptions, ...geoToRealReq }));
-
     return this.get(`${this.path}`, {
       params: geoToRealParams({ parsiToken: this.apiToken, parsiOptions, ...geoToRealReq }),
     })

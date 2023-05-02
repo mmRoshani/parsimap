@@ -1,8 +1,7 @@
-# Boilerplate
-
-[![GitHub](https://img.shields.io/github/license/mmRoshani/parsimap?style=flat)](https://github.com/mmRoshani/parsimap/)
 
 # Parsimap
+
+[![GitHub](https://img.shields.io/github/license/mmRoshani/parsimap?style=flat)](https://github.com/mmRoshani/parsimap/)
 
 [Parsimap](https://parsimap.ir) typescript SDK.
 
